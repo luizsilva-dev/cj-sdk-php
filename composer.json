@@ -1,0 +1,56 @@
+{
+    "name": "luizsilva-dev/cj-sdk-php",
+    "description": "Complete PHP SDK for CJ Affiliate API - Product Search, Advertiser Lookup, Commission Tracking, Link Search and more",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": [
+        "cj",
+        "cj-affiliate",
+        "commission-junction",
+        "affiliate",
+        "affiliate-marketing",
+        "product-catalog",
+        "commission-tracking",
+        "api",
+        "sdk",
+        "php",
+        "graphql",
+        "guzzle"
+    ],
+    "homepage": "https://github.com/luizsilva-dev/cj-sdk-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luiz Silva",
+            "email": "luizsilva.dev@example.com",
+            "homepage": "https://github.com/luizsilva-dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "ext-xml": "*",
+        "ext-simplexml": "*",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CJAffiliate\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "support": {
+        "issues": "https://github.com/luizsilva-dev/cj-sdk-php/issues",
+        "source": "https://github.com/luizsilva-dev/cj-sdk-php",
+        "docs": "https://github.com/luizsilva-dev/cj-sdk-php#readme"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
